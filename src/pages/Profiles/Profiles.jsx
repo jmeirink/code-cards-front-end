@@ -28,7 +28,6 @@ const Profiles = () => {
               key={profile._id}
             />
           )}
-          <div className={styles.divSpacer}></div>
         </>
       :
         <p>No profiles yet</p>
